@@ -3,11 +3,20 @@
   <head>
     <title>Coding Basics</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="./rawdata.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
 
   <body>
     <h1 id="header">Coding Basics! 🚀</h1>
     <!-- Import program logic -->
+    <div class="container">
+      <div class="queryField">
+        <input type="text" placeholder="country" id="countryName" />
+      </div>
+      <button class="main-btn">See current weather</button>
+      <div class="weather-info"></div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
